@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Block, Text } from '../components';
 
-class Login extends Component{
+class Signup extends Component{
     render(){
         return(
             <Block middle center>
-                <Text>Login</Text>
+                <Text>Signup</Text>
             </Block>
         );
     }
 }
 
-export default Login;
+export default Signup;
