@@ -111,7 +111,7 @@ class Welcome extends Component {
     render(){
         const { navigation } = this.props;
         return (
-            <Block>
+            <Block style={{ backgroundColor: 'white' }}>
                 <Block center middle flex={0.5}>
                     <Text h1 center bold>
                         Your Home. <Text h1 primary>Greener.</Text>

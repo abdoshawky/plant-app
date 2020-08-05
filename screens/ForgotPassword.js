@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Block, Text } from '../components';
 
-class Browse extends Component{
+class ForgotPassword extends Component{
     render(){
         return(
             <Block middle center>
-                <Text>Browse</Text>
+                <Text>Forgot Password</Text>
             </Block>
         );
     }
 }
 
-export default Browse;
+export default ForgotPassword;
